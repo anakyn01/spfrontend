@@ -3,7 +3,9 @@
     background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
     background-size: cover;//백그라운드 요소에 패딩 마진값을 포함하는 방법
 }
-.bg-register-image {/* 또는 vh 단위로 지정 */
-  background: url('../img/one.jpg');
-  background-size: cover;
+.bg-register-image {
+    background: url('http://localhost:3000/img/esg.png');
+    background-position: center;
+    background-size: cover;
+    height:100vh;
 }

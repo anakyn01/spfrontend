@@ -1,15 +1,19 @@
+@import "reset";
+
 html{
     body{
         @import "bg";
         .o-hidden{overflow: hidden !important;}
-        .d-none{display:none !important;}
+        .d-none{display:none;}
         .text-gray-900{color:#3a3b45 !important;}
+        
 
         form.user{
+                
                 .form-control-user{
                 font-size:.8rem !important;
                 border-radius: 10rem !important ;
-                padding:1.5rem 1rem !important;
+                padding:.75rem 1rem !important;
                 }
                 .btn-user{
                     font-size: .8rem; 
@@ -29,5 +33,12 @@ html{
             }
         }
     }
+
+    .form-group{margin-bottom:1rem !important;}
+    .bg-register-image {
+    background: url('http://localhost:3000/img/one.jpg');
+    background-position: center;
+    background-size: cover;
+}
 
 

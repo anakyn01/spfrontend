@@ -4,17 +4,16 @@ import { Container, Row, Col, Button,
 const Member = () => {
 return(
     <>
-<div className="bg-gradient-primary">
     <Container>
         <Card className="o-hidden border-0 shadow-lg my-5">
             <Card.Body className="p-0">
                 <Row>
                     <div className="col-lg-5 d-none d-lg-block bg-register-image">
                     </div>
-                    <Col lg={7}>
+                    <div className="col-lg-7">
                     <div className="p-5">
                         <div className="text-center">
-                            <h1 className="h4 text-gray-900 mb-4">Welcome</h1>
+                            <h1 className="h4 text-gray-900 mb-4">Create an Account!</h1>
                         </div>
 
                         <Form className="user">
@@ -54,17 +53,13 @@ return(
 <a href="/login" className="btn btn-primary btn-user btn-block mb-2">
 Register Account
 </a>
-
+<hr/>
 <a href="/" className="btn btn-google btn-user btn-block mb-2">
-    <i className="fab fa-google fa-fw">
-    Register with Google
-    </i>
+    <i className="fab fa-google fa-fw"></i>Register with Google
 </a>
 
 <a href="/" className="btn btn-facebook btn-user btn-block mb-2">
-    <i className="fab fa-facebook-f fa-fw">
-    Register with Facebook
-    </i>
+<i className="fab fa-facebook-f fa-fw"></i>Register with Facebook
 </a>
 </Form>
 <hr/>
@@ -75,12 +70,11 @@ Register Account
    <a href="" className="small">Already have ab account? Login!</a>
 </div>
                     </div>
-                    </Col>
+                    </div>
                 </Row>
             </Card.Body>
         </Card>
     </Container>
-</div>
     </>
 )
 }
